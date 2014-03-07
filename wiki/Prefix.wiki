@@ -1,0 +1,13 @@
+#summary Префикс мода.
+
+= Префикс мода =
+
+Advanced Virtual Battlefield MOD for ARMA III
+
+AVB [AVB]
+
+
+= Details =
+Обсуждается.
+
+Желательно чтобы начинался на "А" - проще искать в конфигурациях.
