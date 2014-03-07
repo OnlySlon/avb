@@ -6,6 +6,6 @@
 
 == Логотип - технический вариант ==
 
-http://avb.googlecode.com/svn/wiki/Images/Logo/Logo256х256.png
+https://avb.googlecode.com/svn/wiki/Images/Logo/Logo256x256.png
 
 Для определения файлов...
