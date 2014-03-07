@@ -1,7 +1,7 @@
 #summary Главная страница.
 
 = Advanced Virtual Battlefield MOD for ARMA III =
- * Префикс AVB [AVB]
+ * [https://code.google.com/p/avb/wiki/Prefix Префикс AVB.]
 ==Логотип проекта==
 В разработке....
 
