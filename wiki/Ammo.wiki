@@ -4,5 +4,8 @@
 
 5,56
 
+http://ru.wikipedia.org/wiki/5,56%C3%9745_%D0%BC%D0%BC_%D0%9D%D0%90%D0%A2%D0%9E
+
 
 7,62
+http://ru.wikipedia.org/wiki/7,62%C3%9751_%D0%BC%D0%BC
