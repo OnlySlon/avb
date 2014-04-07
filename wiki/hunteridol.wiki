@@ -34,3 +34,4 @@
 
 Портирование монитора:
 
+https://code.google.com/p/avb/source/browse/wiki/Images/minecam.png
