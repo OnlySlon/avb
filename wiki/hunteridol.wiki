@@ -35,3 +35,14 @@
 Портирование монитора:
 
 http://avb.googlecode.com/svn/wiki/Images/minecam.png
+
+Недостаки - звуки с А2
+{{{
+Cannot load sound 'ca\ui\data\sound\onover.wss'
+Cannot load sound 'ca\ui\data\sound\new1.wss'
+Cannot load sound 'ca\ui\data\sound\onclick.wss'
+}}}
+
+Прототип боковой камеры:
+
+https://avb.googlecode.com/svn/wiki/Images/minecam1.png
