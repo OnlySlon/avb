@@ -45,4 +45,43 @@ Cannot load sound 'ca\ui\data\sound\onclick.wss'
 
 Прототип боковой камеры:
 
-https://avb.googlecode.com/svn/wiki/Images/minecam1.png
+http://avb.googlecode.com/svn/wiki/Images/minecam1.png
+
+Ящик в монитором и камерой 
+
+http://avb.googlecode.com/svn/wiki/Images/boxCam.png
+
+{{{
+class NATO_Box_Base;
+
+	class hunteridol_Box_Weapons: NATO_Box_Base
+	{
+		mapSize = 1.81;
+		//author = "$STR_A3_Bohemia_Interactive";
+		_generalMacro = "hunteridol_Box_Weapons";
+		scope = 2;
+		displayName = "Ящик с hunteridol [AVB]";
+		model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
+		icon = "iconCrateWpns";
+		transportMaxWeapons = 160;
+		transportMaxMagazines = 0;
+
+		class TransportWeapons
+		{
+			class _xx_ItemHiObj
+			{
+				weapon = "ItemHiObj";
+				count = 1;
+			};
+			class _xx_ItemHiCam
+			{
+				weapon = "ItemHiCam";
+				count = 1;
+			};
+		};
+	};
+
+}}}
+
+
+В работе....
