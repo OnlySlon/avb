@@ -148,6 +148,6 @@ Many changes Много изменений
 
 
 ==Color to scheme TacBF==
-В работе. On Work...
+В работе. WIP..
 
 [https://tacbf-ru.googlecode.com/svn/trunk/outlw_magrepack.pbo Рackage] - add to ../Addons Folder
