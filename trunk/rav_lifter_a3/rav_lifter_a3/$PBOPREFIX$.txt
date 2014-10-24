@@ -1,6 +1,0 @@
-rav_lifter_a3
-======<HEADER>=======
-prefix=rav_lifter_a3
-Pbo Type is: Arma Addon
-Sha: '219475ECC0A4297142A2421602DD0C67E24B6AA4'
-======</HEADER>============

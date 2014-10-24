@@ -1,6 +1,0 @@
-outlw_magrepack
-======<HEADER>=======
-prefix=outlw_magrepack
-Pbo Type is: Arma Addon
-Sha: '66312DB8BA3C399263465EF4D9BA3CE0B7B43401'
-======</HEADER>============
