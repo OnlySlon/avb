@@ -1,44 +1,30 @@
 #summary Фракции.
+==ТЗ==
+ * Без аналогий с реальными формированиями и их символикой 
 
 = Фракции =
-С целью от
+В связи с не привязанностью мода к реальным формированиям, рассматриваются частные военные формирования топливно-энергетических компаний. 
 
 
-==ТЗ==
- * Без аналоий с реальными формированиями и их символикой 
 
-{{{
-class cfgFactionClasses
-{
-	class AVB_AFB 
-	{
-		displayName = "Вооруженные Силы Синих";
-		priority = 3;
-		side = 1;
-		icon = "\AVB\Factions\data\Icon_AFB.paa";
-		flag = "\AVB\Factions\data\Flag_AFB.paa";
-	};
-	class AVB_AFR
-	{
-		displayName = "Вооруженные Силы Красных";
-		priority = 3;
-		side = 0;
-		icon = "\AVB\Factions\data\Icon_AFR.paa";
-		flag = "\AVB\Factions\data\Flag_AFR.paa";
-	};
-	class AVB_AFG 
-	{
-		displayName = "Вооруженные Силы Зеленых";
-		priority = 3;
-		side = 2;
-		icon = "\AVB\Factions\data\Icon_AFG.paa";
-		flag = "\AVB\Factions\data\Flag_AFG.paa";
-	};
-	
-};
-}}}
+
+
+Компания "RED" - топливно-энергетическая компания.
+
+Компания "BLUE" - топливно-энергетическая компания.
+
+Организация "GREEN" - независимая организация.
+
+Организация "CIVIL" - независимая организация.
 
 ==Флаги==
+Компания "RED" 
+
+Компания "BLUE" 
+
+Организация "GREEN" 
+
+Организация "CIVIL" 
 
 
 ==Маркеры==
