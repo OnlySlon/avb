@@ -11,44 +11,46 @@ class CfgPatches
 		requiredAddons[] = {};
 	};
 };
-class CfgVehicleClasses
-{
-	class AVB_Beret
-	{
-		displayName = "??????";
-	};
-};
+
 class cfgWeapons
 {
 	class H_Beret_blk;
 class AVB_Beret_Black: H_Beret_blk
 	{
 		
-		picture = "\AVB\Hats\Beret\ui\Black.jpg";
+		picture = "\AVB\Hats\Beret\ui\Black.paa";
 		_generalMacro = "AVB_Beret_Black";
-		scope = 1;
+		scope = 2;
 		displayName = "Берет черный";
 		hiddenSelectionsTextures[] = {"\AVB\Hats\Beret\Data\Black.paa"};
 	};
 class AVB_Beret_Blue: H_Beret_blk
 	{
 		
-		picture = "\AVB\Hats\Beret\ui\Blue.jpg";
+		picture = "\AVB\Hats\Beret\ui\Blue.paa";
 		_generalMacro = "AVB_Beret_Blue";
-		scope = 1;
+		scope = 2;
 		displayName = "Берет синий";
 		hiddenSelectionsTextures[] = {"\AVB\Hats\Beret\Data\Blue.paa"};
 	};
 class AVB_Beret_Red: H_Beret_blk
 	{
 		
-		picture = "\AVB\Hats\Beret\ui\Red.jpg";
+		picture = "\AVB\Hats\Beret\ui\Red.paa";
 		_generalMacro = "AVB_Beret_Red";
-		scope = 1;
+		scope = 2;
 		displayName = "Берет красный";
 		hiddenSelectionsTextures[] = {"\AVB\Hats\Beret\Data\Red.paa"};
 	};
-
+class AVB_Beret_Green: H_Beret_blk
+	{
+		
+		picture = "\AVB\Hats\Beret\ui\Green.paa";
+		_generalMacro = "AVB_Beret_Green";
+		scope = 2;
+		displayName = "Берет зеленый";
+		hiddenSelectionsTextures[] = {"\AVB\Hats\Beret\Data\Green.paa"};
+	};
 
 /*
 
