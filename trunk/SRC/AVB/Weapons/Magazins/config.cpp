@@ -19,7 +19,7 @@ class CA_Magazine;
 		scope = 2;
 		ammo = "B_9x21_Ball";
 		displayName = "Магазин на 16 патрон 9х21";
-		picture = "\AVB\Magazins\ui\16_9x21.paa";
+		picture = "\AVB\Weapons\Magazins\ui\16_9x21.paa";
 		type = 16;
 		count = 16;
 		descriptionShort = "";
@@ -33,7 +33,7 @@ class CA_Magazine;
 	{
 		
 		displayName = "Пустой магазин на 16 патрон 9х21";
-		picture = "\AVB\Magazins\ui\16_9x21_Null.paa";
+		picture = "\AVB\Weapons\Magazins\ui\16_9x21_Null.paa";
 		count = 1;
 		mass = 3;
 		

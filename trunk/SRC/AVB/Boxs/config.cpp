@@ -13,6 +13,15 @@ class CfgPatches
 class CfgVehicles 
 {
 	class ReammoBox_F;
+	class AVB_Box_test: ReammoBox_F
+	{
+		scope=2;
+		displayName = "[AVB] test";
+		
+		hiddenSelections[] = {"Camo_Signs","Camo"};
+		hiddenSelectionsTextures[] = {"\AVB\Boxs\Data\box_CB_ca.paa","\AVB\Boxs\Data\box_CB_co.paa"};\
+		model = "\AVB\Boxs\Data\WpnsBox_F_destr.p3d";
+	};
 	class AVB_Box_Base_CB: ReammoBox_F
 	{
 		scope = 0;
@@ -40,10 +49,19 @@ class CfgVehicles
 				interval = 1;
 				lifeTime = 2;
 			};
+			class Ruin
+			{
+				simulation = ruin;
+				type = \AVB\Boxs\Data\WpnsBox_F_destr.p3d; // Path to model of ruin used when total damage of the house reaches 1
+				position = "";
+				intensity = 1;
+				interval = 1;
+				lifeTime = 1;
+			};/*
 			class Ruin1
 			{
 				simulation = "ruin";
-				type = "\A3\Structures_F\Dominants\WIP\WIP_ruins_F.p3d";
+				type = "\AVB\Boxs\Data\Radar_Small_ruins_F_.p3d";
 				position = "";
 				intensity = 1;
 				interval = 1;
@@ -223,5 +241,12 @@ class CfgVehicles
 				count = 10; //Item Count Here
 			};
 		};
+	};
+	class Ruins_F;
+	class WpnsBox_F_destr: Ruins_F
+	{
+		scope = 2;
+		displayName = "[AVB] Сгоревший ящик";
+		model = \AVB\Boxs\Data\WpnsBox_F_destr.p3d;
 	};
 };
