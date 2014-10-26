@@ -20,7 +20,7 @@ class CfgVehicles
 		
 		hiddenSelections[] = {"Camo_Signs","Camo"};
 		hiddenSelectionsTextures[] = {"\AVB\Boxs\Data\box_CB_ca.paa","\AVB\Boxs\Data\box_CB_co.paa"};\
-		model = "\AVB\Boxs\Data\WpnsBox_F_destr.p3d";
+		model = "\AVB\Boxs\Data\Test_House_01_ruins_F.p3d";
 	};
 	class AVB_Box_Base_CB: ReammoBox_F
 	{
@@ -52,7 +52,7 @@ class CfgVehicles
 			class Ruin
 			{
 				simulation = ruin;
-				type = \AVB\Boxs\Data\WpnsBox_F_destr.p3d; // Path to model of ruin used when total damage of the house reaches 1
+				type = \AVB\Boxs\Data\Test_House_01_ruins_F.p3d; // Path to model of ruin used when total damage of the house reaches 1
 				position = "";
 				intensity = 1;
 				interval = 1;
