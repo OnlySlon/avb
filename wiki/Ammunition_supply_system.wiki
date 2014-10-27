@@ -1,12 +1,8 @@
 #summary Система боепитания
-= Introduction =
 
-Add your content here.
+= Система боепитания =
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== ТЗ ==
+ * После получения ручного вооружения магазины пустые. 
+ * Количество магазинов ограничено в зависимости от вооружения (6 на автомат).
+ * Снаряжение магазинов осуществляется на пунктах боепитания (очень быстро), из цинков, из пачек патрон, из других магазинов , совместимость на уровне патрона.
