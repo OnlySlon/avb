@@ -25,7 +25,7 @@
 ==Объектные Модули (Конфиги, Модели)==
  * [https://code.google.com/p/avb/wiki/Factions Фракции].
  * Юниты.
- * https://code.google.com/p/avb/wiki/Unuform Форма].
+ * [https://code.google.com/p/avb/wiki/Unuform Форма].
  * Вооружение.
  * Транспортные средства.
  * БПЛА.
