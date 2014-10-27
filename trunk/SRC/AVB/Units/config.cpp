@@ -60,6 +60,7 @@ class CfgVehicles
 	        attendant = "true";
 			UAF=1;
 			uniformAccessories[] = {};
+			modelsides[] = {3,2,1,0};
 			class ViewPilot: ViewPilot
 			{
 				initFov = 0.75;
@@ -78,8 +79,8 @@ class CfgVehicles
 		vehicleClass = "AVB_CR_Units";
         uniformClass = "AVB_Soldier_CR";
 		Items[] = {};
-		weapons[] = {"Throw","Put"};
-        magazines[] = {};
+		weapons[] = {"Throw","Put","AVB_Rook40"};
+        magazines[] = {"AVB_16_9x21_Mag_Null","AVB_16_9x21_Mag_Null"};
         linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS","AVB_Beret_red"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
         hiddenSelections[] = {"Camo","insignia"};
