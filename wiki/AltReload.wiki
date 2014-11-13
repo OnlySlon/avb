@@ -10,3 +10,6 @@ With deactivated Action LoadMagazine impossible to recharge alternative Magazine
 =Solution Решение =
 
 [https://community.bistudio.com/wiki/Arma_3_Actions#LoadMagazine LoadMagazine Doc] - неопределенная информация.
+
+
+player action ["loadmagazine", player, player, 0, 1 ,"vbs2_us_m16a2_iron_gla", "vbs2_us_m16a2_iron_gla"];
