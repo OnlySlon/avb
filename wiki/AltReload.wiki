@@ -6,7 +6,7 @@
 
 При отключенном Action LoadMagazine невозможно перезарядить альтернативные магазины. 
 
-With deactivated Action LoadMagazine impossible to recharge alternative Magazine.
+With deactivated Action LoadMagazine impossible to reload alternative Magazine.
 
 [https://community.bistudio.com/wiki/Arma_3_Actions#LoadMagazine LoadMagazine Doc] - неопределенная информация.
 
