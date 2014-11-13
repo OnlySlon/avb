@@ -25,4 +25,4 @@ _id = 7;//[id/cr:7/0]
 player action ["loadmagazine", player, player, 0, _id ,_Weapon, _Muzzle];
 }}}
 
-Sample Mission - Key ALT + ActionKeys "ReloadMagazine", + Push Script "TAB", + Turn Script "CTRL"+"TAB"/
+Sample Mission - Key ALT + ActionKeys "ReloadMagazine" , + Push Script "TAB" , + Turn Script "CTRL"+"TAB".
