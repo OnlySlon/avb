@@ -7,18 +7,22 @@
 При отключенном Action LoadMagazine невозможно перезарядить альтернативные магазины. 
 With deactivated Action LoadMagazine impossible to recharge alternative Magazine.
 
-
-
 [https://community.bistudio.com/wiki/Arma_3_Actions#LoadMagazine LoadMagazine Doc] - неопределенная информация.
 
 =Solution Решение =
 
 {{{
-Unknown, something like - unit action ["loadMagazine", <target>, <magazine creator>, <ID MAGAZIN in Player>, <number> ,<weapon name>, <muzzle name>]
+unit action ["loadMagazine", <target>, <magazine creator>, <ID MAGAZIN Player>, <number> ,<weapon name>, <muzzle name>]
 }}}
 
-
 Sample script:
+{{{
+magazinesDetail player;
+//return ["Магазин на 16 9-мм патронов(16/16)[id/cr:7/0]"]
+_Muzzle=currentMuzzle player;
+_Weapon=currentWeapon player;
+_id = 7;//[id/cr:7/0]
+player action ["loadmagazine", player, player, 0, _id ,_Weapon, _Muzzle];
+}}}
 
-
-player action ["loadmagazine", player, player, 0, 1 ,"vbs2_us_m16a2_iron_gla", "vbs2_us_m16a2_iron_gla"];
+Sample Mission - Key ALT + ActionKeys "ReloadMagazine", + Push Script "TAB", + Turn Script "CTRL"+"TAB"/
