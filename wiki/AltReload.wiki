@@ -26,4 +26,4 @@ _id = 7;//[id/cr:7/0]
 player action ["loadmagazine", player, player, 0, _id ,_Weapon, _Muzzle];
 }}}
 
-[https://avb.googlecode.com/svn/wiki/SRC/Alt_reload.Stratis.7z Sample Mission] - Key ALT + ActionKeys "ReloadMagazine" , + Push Script "TAB" , + Turn Script "CTRL"+"TAB".Use Arsenal for ower magazins.
+[http://avb.googlecode.com/svn/wiki/SRC/Alt_reload.Stratis.7z Sample Mission] - Key ALT + ActionKeys "ReloadMagazine" , + Push Script "TAB" , + Turn Script "CTRL"+"TAB".Use Arsenal for ower magazins.
