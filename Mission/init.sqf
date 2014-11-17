@@ -69,6 +69,19 @@ h = [] spawn {
         hintSilent hinttext;
         sleep 1;
     };*/
+    NN = [] spawn {
+    while {true} do {
+        sleep 0.03;
+        start = eyepos player;
+        pdir= vectorDir player;
+        {
+            pdir set [_foreachindex, ((_x*5)+(start select _forEachIndex))]
+        } forEach pdir;
+        _end = pdir;
+        drawLine3D [start,_end,[1,0,0,1]];
+       //hint str (lineIntersectswith [start,_end,helper1,helper2]);
+    };
+};
 };
 	//[] execVM "Fn\Key_bind_Init.sqf";
 //};
