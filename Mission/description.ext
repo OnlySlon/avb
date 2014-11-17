@@ -1,0 +1,50 @@
+//#include "taw_vd\dialog.hpp"
+/*
+class CfgFunctions
+{
+  #include "taw_vd\CfgFunctions.hpp"
+};
+*/
+#include "Def\Styles.h"//Загрузка основных стилей диалогов
+#include "Def\Colors.h"//Загрузка базовых расцветок диалогов
+#include "Def\Base_Classes.h"//Загрузка базовых классов диалогов
+#include "DLG\Alt_reload.h"//Диалог игрока
+#include "DLG\SM.h"
+#include "DLG\PM.h"
+#include "DLG\IM.h"
+#include "DLG\Ammo_repack.h"
+//#include "DLG\Info_dlg.h"//Диалог информации
+//#include "params.h"  //параметры миссии
+
+ //Иконка упора оружия
+
+dev = "DEV";
+author = "*";
+briefingName = "*Полигон EW v.005*";
+onLoadName = "Полигон EW v.005";
+//loadScreen = "IMG\loadScreen.paa";
+onLoadMission = "";
+
+overviewText = "";
+overviewTextLocked = "Locked.";
+//overviewPicture = "IMG\overviewPicture.paa";
+// Настройки
+showGps = 1;
+disabledAI = 1;
+persistent = 1;
+// Настройка типа игры
+class Header
+{
+  gameType = COOP;
+  minPlayers = 1;
+  maxPlayers = 42;
+};
+
+//Установки возрождения
+Respawn = "BASE";
+RespawnDelay = 6;
+RespawnDialog = 0;
+
+
+
+
