@@ -21,27 +21,27 @@ class CfgPatches
 
 class CfgVehicleClasses
 {
-	class AVB_CR_Units
+	class AVB_R_Units
 	{
-		displayName = "Сотрудники";
+		displayName = "Игроки";
 
 	
     };
-	class AVB_CB_Units
+	class AVB_B_Units
 	{
-		displayName = "Сотрудники";
+		displayName = "Игроки";
 
 	
     };
-	class AVB_CG_Units
+	class AVB_G_Units
 	{
-		displayName = "Сотрудники";
+		displayName = "Игроки";
 
 	
     };
-    class AVB_CC_Units
+    class AVB_C_Units
 	{
-		displayName = "Сотрудники";
+		displayName = "Игроки";
 
 	
     };
@@ -53,7 +53,7 @@ class CfgVehicles
      class I_Soldier_base_F;
 		class AVB_Soldier_base: I_Soldier_base_F
 		{
-			scope = 2;
+			scope = 1;
 			canCarryBackPack=1;
 			canDeactivateMines=1;
 			engineer=1; 
@@ -71,14 +71,14 @@ class CfgVehicles
 		};
 
 
-        class AVB_Soldier_CR: AVB_Soldier_base
+        class AVB_Soldier_R: AVB_Soldier_base
 	{
 		scope = 2;
 		side=0;
-		displayName = "Сотрудник";
-        faction = "AVB_CR";
-		vehicleClass = "AVB_CR_Units";
-        uniformClass = "AVB_Soldier_CR";
+		displayName = "Игрок";
+        faction = "AVB_R";
+		vehicleClass = "AVB_R_Units";
+        uniformClass = "AVB_Soldier_R";
 		Items[] = {};
 
 		//weapons[] = {"Throw","Put","AVB_Rook40"};
@@ -91,14 +91,14 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\AVB\Units\Data\UniformCR.paa"};
                 
 	};      
-	class AVB_Soldier_CB: AVB_Soldier_base
+	class AVB_Soldier_B: AVB_Soldier_base
 	{
 		scope = 2;
 		side=1;
-		displayName = "Сотрудник";
-        faction = "AVB_CB";
-		vehicleClass = "AVB_CB_Units";
-        uniformClass = "AVB_Soldier_CB";
+		displayName = "Игрок";
+        faction = "AVB_B";
+		vehicleClass = "AVB_B_Units";
+        uniformClass = "AVB_Soldier_B";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -107,15 +107,15 @@ class CfgVehicles
         hiddenSelections[] = {"Camo","insignia"};
 		hiddenSelectionsTextures[] = {"\AVB\Units\Data\UniformCB.paa"};
 	};
-	class AVB_Soldier_CG: AVB_Soldier_base
+	class AVB_Soldier_G: AVB_Soldier_base
 	
 	{
 		scope = 2;
 		side=2;
-		displayName = "Сотрудник";
-        faction = "AVB_CG";
-		vehicleClass = "AVB_CG_Units";
-        uniformClass = "AVB_Soldier_CG";
+		displayName = "Игрок";
+        faction = "AVB_G";
+		vehicleClass = "AVB_G_Units";
+        uniformClass = "AVB_Soldier_G";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -129,10 +129,10 @@ class CfgVehicles
 	{
 		scope = 2;
 		side=3;
-		displayName = "Сотрудник";
-        faction = "AVB_CC";
-		vehicleClass = "AVB_CC_Units";
-        uniformClass = "AVB_Soldier_CC";
+		displayName = "Игрок";
+        faction = "AVB_C";
+		vehicleClass = "AVB_C_Units";
+        uniformClass = "AVB_Soldier_C";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
         magazines[] = {""};
@@ -149,7 +149,7 @@ class cfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
-	class AVB_Soldier_CR: Uniform_Base
+	class AVB_Soldier_R: Uniform_Base
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -161,12 +161,12 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "AVB_Soldier_CR";
+			uniformClass = "AVB_Soldier_R";
 			containerClass="Supply60";
 			mass=80;
 		};
 	};
-	class AVB_Soldier_CB: Uniform_Base
+	class AVB_Soldier_B: Uniform_Base
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -178,12 +178,12 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "AVB_Soldier_CB";
+			uniformClass = "AVB_Soldier_B";
 			containerClass="Supply60";
 			mass=80;
 		};
 	};
-	class AVB_Soldier_CG: Uniform_Base
+	class AVB_Soldier_G: Uniform_Base
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -196,12 +196,12 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "AVB_Soldier_CG";
+			uniformClass = "AVB_Soldier_G";
 			containerClass="Supply60";
 			mass=80;
 		};
 	};
-	class AVB_Soldier_CC: Uniform_Base
+	class AVB_Soldier_C: Uniform_Base
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -214,7 +214,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "AVB_Soldier_CC";
+			uniformClass = "AVB_Soldier_C";
 			containerClass="Supply60";
 			mass=80;
 		};
