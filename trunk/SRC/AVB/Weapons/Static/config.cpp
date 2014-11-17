@@ -98,7 +98,7 @@ class CfgVehicles
 		_generalMacro = "AVB_MG_low_base";
 		scope = 2;
 
-		crew = "B_Soldier_F";
+		crew = "AVB_Soldier_R";
 
 		class Turrets: Turrets
 		{
@@ -145,8 +145,8 @@ class CfgVehicles
 		_generalMacro = "AVB_MG_low";
 		scope = 2;
 		side = 0;
-		faction = "AVB_CR";
-		crew = "B_Soldier_F";
+		faction = "AVB_R";
+		crew = "AVB_Soldier_R";
 		displayName = "[AVB] Пулемет Mк30A низкий";
 		class assembleInfo
 		{
@@ -166,8 +166,8 @@ class CfgVehicles
 		_generalMacro = "AVB_MG_high";
 		scope = 2;
 		side = 0;
-		faction = "AVB_CR";
-		crew = "B_Soldier_F";
+		faction = "AVB_R";
+		crew = "AVB_Soldier_R";
 		class UserActions
 		{
 			class Reload
@@ -208,8 +208,8 @@ class CfgVehicles
 		_generalMacro = "AVB_AGS_base";
 		scope = 2;
 		side = 0;
-		faction = "AVB_CR";
-		crew = "O_Soldier_F";
+		faction = "AVB_R";
+		crew = "AVB_Soldier_R";
 		class assembleInfo
 		{
 			primary = 0;
@@ -288,8 +288,9 @@ class AVB_Mortar_base: Mortar_01_base_F
 		_generalMacro = "AVB_Mortar_base";
 		scope = 2;
 		side = 0;
-		faction = "AVB_CR";
-		crew = "O_Soldier_F";
+		faction = "AVB_R";
+		//crew = "O_Soldier_F";
+		crew = "AVB_Soldier_R";
 		//availableForSupportTypes[] = {"Artillery"};
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Static_f\Mortar_01\data\Mortar_01_OPFOR_CO.paa"};

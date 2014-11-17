@@ -21,7 +21,7 @@ class CfgVehicles
 		displayName = "[AVB] Квадроцикл";
 		scope = 2;
 		side = 0;
-		faction = "AVB_CR";
+		faction = "AVB_R";
 		//crew = "O_Soldier_F";
 		//typicalCargo[] = {"O_Soldier_lite_F"};
 		//hiddenSelectionsTextures[] = {"\A3\Soft_F\Quadbike_01\Data\Quadbike_01_OPFOR_CO.paa","\A3\Soft_F\Quadbike_01\Data\Quadbike_01_wheel_OPFOR_CO.paa"};

@@ -17,33 +17,33 @@ class CfgPatches
 */
 class cfgFactionClasses
 {
-	class AVB_CR 
+	class AVB_R 
 	{
-		displayName = 'Компания "RED"';
+		displayName = '[AVB] Красные';
 		priority = 100;
 		side = 0;
 		icon = "\AVB\Factions\ui\Icon_CR.paa";
 		flag = "\AVB\Flags\Flag_GR.paa";
 	};
-	class AVB_CB
+	class AVB_B
 	{
-		displayName = 'Компания "BLUE"';
+		displayName = '[AVB] Синие';
 		priority = 100;
 		side = 1;
 		icon = "\AVB\Factions\ui\Icon_CB.paa";
 		flag = "\AVB\Flags\Flag_CB.paa";
 	};
-	class AVB_CG 
+	class AVB_G 
 	{
-		displayName = 'Организация "GREEN"';
+		displayName = '[AVB] Независимые';
 		priority = 100;
 		side = 2;
 		icon = "\AVB\Factions\ui\Icon_CG.paa";
 		flag = "\AVB\Flags\Flag_CG.paa";
 	};
-	class AVB_CC 
+	class AVB_C 
 	{
-		displayName = 'Организация "CIVIL"';
+		displayName = '[AVB] Гражданские';
 		priority = 100;
 		side = 3;
 		icon = "\AVB\Factions\ui\Icon_CC.paa";
