@@ -18,9 +18,9 @@ class CfgVehicles
 		scope=2;
 		displayName = "[AVB] test";
 		
-		hiddenSelections[] = {"Camo_Signs","Camo"};
-		hiddenSelectionsTextures[] = {"\AVB\Boxs\Data\box_CB_ca.paa","\AVB\Boxs\Data\box_CB_co.paa"};\
-		model = "\AVB\Boxs\Data\Test_House_01_ruins_F.p3d";
+		//hiddenSelections[] = {"Camo_Signs","Camo"};
+		//hiddenSelectionsTextures[] = {"\AVB\Boxs\Data\box_CB_ca.paa","\AVB\Boxs\Data\box_CB_co.paa"};\
+		model = "\AVB\Boxs\Data\box.p3d";
 	};
 	class AVB_Box_Base_CB: ReammoBox_F
 	{
@@ -49,10 +49,10 @@ class CfgVehicles
 				interval = 1;
 				lifeTime = 2;
 			};
-			class Ruin
+			class Ruin1
 			{
 				simulation = ruin;
-				type = \AVB\Boxs\Data\Test_House_01_ruins_F.p3d; // Path to model of ruin used when total damage of the house reaches 1
+				type = "\AVB\Boxs\Data\box.p3d"; // Path to model of ruin used when total damage of the house reaches 1
 				position = "";
 				intensity = 1;
 				interval = 1;
@@ -96,7 +96,7 @@ class CfgVehicles
 		mapSize = 1.81;
 		_generalMacro = "AVB_Pistol_Box";
 		vehicleClass = "Ammo";
-		displayName = "[AVB] Пистолеты";
+		displayName = "[AVB] Пистолет Грач";
 		//model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
 		icon = "iconCrateWpns";
 		transportMaxWeapons = 25;
@@ -115,17 +115,7 @@ class CfgVehicles
 				weapon = "AVB_P07";
 				count = 10;
 			};
-			class _xx_AVB_ACPC2
-			{
-				weapon = "AVB_ACPC2";
-				count = 10; //Item Count Here
-			};
 			
-			class _xx_AVB_For
-			{
-				weapon = "AVB_For";
-				count = 10;
-			};
 			
 		}; 
 		class TransportMagazines
@@ -137,12 +127,13 @@ class CfgVehicles
 			};
 			class _xx_AVB_16Rnd_9x21_Mag_Null
 			{
-				magazine = "AVB_16_9x21_Mag_Null";
+				magazine = "AVB_16_9x21_Mag_empty";
 				count = 40;
 			};
-			class _xx_9Rnd_45ACP_Mag
+			
+			class _xx_AVB_Box_30x9x21
 			{
-				magazine = "9Rnd_45ACP_Mag";
+				magazine = "AVB_Box_30x9x21";
 				count = 40;
 			};
 		};
@@ -153,6 +144,7 @@ class CfgVehicles
 				name = "muzzle_snds_L";
 				count = 4;
 			};
+			
 			class _xx_muzzle_snds_acp
 			{
 				name = "muzzle_snds_acp";
@@ -163,6 +155,7 @@ class CfgVehicles
 				name = "optic_MRD";
 				count = 4;
 			};
+			
 		};
 	};
 
@@ -242,6 +235,8 @@ class CfgVehicles
 			};
 		};
 	};
+
+
 	class Ruins_F;
 	class WpnsBox_F_destr: Ruins_F
 	{
