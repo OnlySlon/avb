@@ -96,7 +96,7 @@ class CfgVehicles
 		mapSize = 1.81;
 		_generalMacro = "AVB_Pistol_Box";
 		vehicleClass = "Ammo";
-		displayName = "[AVB] Пистолет Грач";
+		displayName = "[AVB] Пистолеты";
 		//model = "\A3\weapons_F\AmmoBoxes\WpnsBox_F";
 		icon = "iconCrateWpns";
 		transportMaxWeapons = 25;
@@ -244,4 +244,29 @@ class CfgVehicles
 		displayName = "[AVB] Сгоревший ящик";
 		model = \AVB\Boxs\Data\WpnsBox_F_destr.p3d;
 	};
+
+//model = "\A3\Supplies_F_Heli\CargoNets\CargoNet_01_ammo_F.p3d";
+
+	class AVB_Cash_Box: AVB_Box_Base_CB {
+		scope = 2;
+		vehicleClass = "Ammo";
+		displayName = "[AVB] Транспортный схрон";
+		model = "\A3\Supplies_F_Heli\CargoNets\CargoNet_01_ammo_F.p3d";
+		icon = "iconCrateWpns";
+		transportMaxWeapons = 25;
+		transportMaxMagazines = 250;
+		class TransportWeapons
+		{
+			
+		};
+		class TransportMagazines
+		{
+
+		};
+		class TransportItems
+		{
+			
+		};
+	};
+#include "BoxRifle.h"
 };
