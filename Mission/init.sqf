@@ -39,6 +39,7 @@ player addMagazine "AVB_16_9x21_Mag";
 	player addMagazine "AVB_16_9x21_Mag_empty";
 	player addMagazine "AVB_Box_30x9x21";
 	player addVest "V_TacVest_oli";
+    execvm "Fn\im_temp.sqf";
 	//player addaction ["<t color='#FF0000'>Arsenal</t>", "arsenal.sqf"];
 	//player addaction ["<t color='#FF0000'>SM</t>", "Fn\SM_init.sqf"];
 	//player addaction ["<t color='#00ff00'>Снаряжение магазинов</t>", "FN\Ammo_repack_init.sqf"];
@@ -69,21 +70,41 @@ h = [] spawn {
         hintSilent hinttext;
         sleep 1;
     };*/
+    /*
     NN = [] spawn {
     while {true} do {
         sleep 0.03;
-        start = eyepos player;
-        pdir= vectorDir player;
+        start =ASLtoATL eyepos player;
+        //pdir= vectorDirVisual player;
+pdir =  eyeDirection player;
         {
             pdir set [_foreachindex, ((_x*5)+(start select _forEachIndex))]
         } forEach pdir;
         _end = pdir;
-        drawLine3D [start,_end,[1,0,0,1]];
+
+        //drawLine3D [start,_end,[1,0,0,1]];
+        drawLine3D [start, pdir, [1,0,0,1]];
        //hint str (lineIntersectswith [start,_end,helper1,helper2]);
     };
 };
 };
-	//[] execVM "Fn\Key_bind_Init.sqf";
+
+dummy = [] spawn
+{
+    _sign = "Land_Sign_Mines_F" createVehicle [0, 0, 0];
+    while {true} do
+    {
+        _ep = ASLtoATL eyePos player;
+
+        _ed = [eyeDirection player, 5] call BIS_fnc_vectorMultiply;
+        _s = [_ep, _ed] call BIS_fnc_vectorAdd;
+
+        _sign setPos _s;
+
+        sleep 0.01;
+    };*/
+};
+    //[] execVM "Fn\Key_bind_Init.sqf";
 //};
 
 
