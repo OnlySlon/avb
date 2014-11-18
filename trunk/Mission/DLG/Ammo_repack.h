@@ -29,6 +29,7 @@ class Controls
                     h = 1 * GUI_GRID_H;
                     action = "closeDialog 0";
             };
+             
         class AVB_TREE_Ammo_source : AVB_RscTree
             {
                     idc = 16003;
@@ -71,7 +72,18 @@ class Controls
                     h = 1 * GUI_GRID_H;
                     access = 1;
                        
-            };         
+            };   
+            class AVB_repack :AVB_RscButton
+            {
+                    idc = 16001;
+                    text = "Переснарядить";
+                    //size= 32 * GUI_GRID_W;
+                    x = 10 * GUI_GRID_W + GUI_GRID_X;
+                    y = 10 * GUI_GRID_H + GUI_GRID_Y;
+                    w = 10 * GUI_GRID_W;
+                    h = 10 * GUI_GRID_H;
+                    action = "closeDialog 0;_this execvm 'Fn\Ammo_repack.sqf';";
+            };      
                             
     };
 };
