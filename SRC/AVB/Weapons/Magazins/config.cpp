@@ -39,6 +39,7 @@ class 16Rnd_9x21_Mag;
 		mass = 3;
 		emptyMag="";
 		empty=1;
+		FullMag="AVB_16_9x21_Mag";
 		
 	};
 	
@@ -54,5 +55,21 @@ class 16Rnd_9x21_Mag;
 		initSpeed = 410;
 	
 	};
-	
+class 30Rnd_556x45_Stanag;
+class AVB_30Rnd_556x45_Stanag: 30Rnd_556x45_Stanag{
+	emptyMag="AVB_30Rnd_556x45_Stanag_empty";
+};
+class AVB_30Rnd_556x45_Stanag_empty: 30Rnd_556x45_Stanag{
+	count = 1;
+	picture = "\AVB\Weapons\Magazins\ui\m_30stanag_empty.paa";
+	displayName = "Пустой магазин 30 5,56х45";
+	mass = 3;
+	FullMag="AVB_30Rnd_556x45_Stanag";
+};
+class 500Rnd_127x99_mag;
+class AVB_50Rnd_127x99_mag: 500Rnd_127x99_mag{
+count = 50;
+};
+
+
 };

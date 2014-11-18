@@ -1,5 +1,5 @@
 #define _ARMA_
-#define FovOptics 0.175
+#define FovOptics 0.138//6X //0.175 4X
 //ndefs=13
 enum {
 	destructengine = 2,
@@ -48,6 +48,7 @@ class CfgVehicles
 		model = "\A3\Static_F_Gamma\HMG_01\HMG_01_high_F.p3d";
 		_generalMacro = "AVB_MG_high_base";
 		armor = 30.0;
+		//magazines[] = {"AVB_50Rnd_127x99_mag"};
 		class ViewOptics: ViewOptics
 				{
 					initFov = FovOptics;
@@ -73,7 +74,7 @@ class CfgVehicles
 				gunnerAction = "gunner_standup01";
 				gunnergetInAction = "";
 				gunnergetOutAction = "";
-				magazines[] = {};
+				magazines[] = {"AVB_50Rnd_127x99_mag"};
 				weapons[] = {"AVB_HMG"};
 				class ViewOptics: ViewOptics
 				{
@@ -112,7 +113,7 @@ class CfgVehicles
 				minElev = -20;
 				maxElev = 55;///////////////////////////////////////
 				weapons[] = {"AVB_HMG"};
-				magazines[] = {};
+				magazines[] = {"AVB_50Rnd_127x99_mag"};
 				gunnerAction = "gunner_static_low01";
 				gunnergetInAction = "";
 				gunnergetOutAction = "";

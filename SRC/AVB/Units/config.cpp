@@ -75,7 +75,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		side=0;
-		displayName = "Игрок";
+		displayName = "Стрелок";
         faction = "AVB_R";
 		vehicleClass = "AVB_R_Units";
         uniformClass = "AVB_Soldier_R";
@@ -95,7 +95,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		side=1;
-		displayName = "Игрок";
+		displayName = "Стрелок";
         faction = "AVB_B";
 		vehicleClass = "AVB_B_Units";
         uniformClass = "AVB_Soldier_B";
@@ -112,7 +112,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		side=2;
-		displayName = "Игрок";
+		displayName = "Стрелок";
         faction = "AVB_G";
 		vehicleClass = "AVB_G_Units";
         uniformClass = "AVB_Soldier_G";
@@ -124,12 +124,12 @@ class CfgVehicles
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\AVB\Units\Data\UniformCG.paa"};
 	};
-	class AVB_Soldier_CC: AVB_Soldier_base
+	class AVB_Soldier_C: AVB_Soldier_base
 	
 	{
 		scope = 2;
 		side=3;
-		displayName = "Игрок";
+		displayName = "Стрелок";
         faction = "AVB_C";
 		vehicleClass = "AVB_C_Units";
         uniformClass = "AVB_Soldier_C";
@@ -153,7 +153,7 @@ class cfgWeapons
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		displayName = "Камуфляж зеленый";
+		displayName = "[AVB] Камуфляж зеленый";
 		picture = "\AVB\Units\ui\FieldUniformCR.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_opfor_co.paa"};
@@ -170,7 +170,7 @@ class cfgWeapons
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		displayName = "Камуфляж пустыня";
+		displayName = "[AVB] Камуфляж пустыня";
 		picture = "\AVB\Units\ui\FieldUniformCB.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
@@ -187,7 +187,7 @@ class cfgWeapons
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		displayName = "Камуфляж темный";
+		displayName = "[AVB] Камуфляж темный";
 		picture = "\AVB\Units\ui\FieldUniformCG.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
@@ -205,7 +205,7 @@ class cfgWeapons
 	{
 		scope=2;
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
-		displayName = "Камуфляж другой";
+		displayName = "[AVB] Камуфляж другой";
 		picture = "\AVB\Units\ui\FieldUniformCG.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
