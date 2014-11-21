@@ -13,6 +13,7 @@ class CfgFunctions
 #include "DLG\PM.h"
 #include "DLG\IM.h"
 #include "DLG\Ammo_repack.h"
+#include "outlw_magRepack\MagRepack_config.hpp"
 //#include "DLG\Info_dlg.h"//Диалог информации
 //#include "params.h"  //параметры миссии
 
