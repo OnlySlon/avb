@@ -28,6 +28,8 @@ if (isDedicated) then {
 //=== Client ===
 if (!(isDedicated)) then {
 	call KEYBIND;
+    [] execVM '\fhq_debug\init.sqf';
+    [] execVM "outlw_magRepack\MagRepack_init_sv.sqf";
 
 player addMagazine "AVB_16_9x21_Mag";
 player addMagazine "AVB_16_9x21_Mag";

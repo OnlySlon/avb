@@ -15,7 +15,8 @@ class Mission
 		"A3_Structures_F_EPB_Items_Vessels",
 		"A3_Weapons_F_Ammoboxes",
 		"A3_Supplies_F_Heli_CargoNets",
-		"A3_Weapons_F_Bootcamp_Ammoboxes"
+		"A3_Weapons_F_Bootcamp_Ammoboxes",
+		"avb_vehicle"
 	};
 	addOnsAuto[]=
 	{
@@ -31,26 +32,24 @@ class Mission
 		"A3_Weapons_F_Ammoboxes",
 		"A3_Supplies_F_Heli_CargoNets",
 		"A3_Weapons_F_Bootcamp_Ammoboxes",
+		"avb_vehicle",
 		"a3_map_stratis"
 	};
 	randomSeed=5447767;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		year=2035;
 		month=7;
 		day=6;
 		hour=12;
 		minute=0;
-		startFogDecay=0.013;
-		forecastFogDecay=0.013;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 	class Groups
 	{
@@ -63,14 +62,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={1791.9244,5.5,6006.3306};
+					position[]={1786.8595,5.5,6016.6187};
 					azimut=200;
 					id=0;
 					side="WEST";
 					vehicle="AVB_Soldier_B";
 					player="PLAYER COMMANDER";
 					leader=1;
-					skill=0.60000002;
+					skill=0.2;
 				};
 			};
 		};
@@ -86,15 +85,16 @@ class Mission
 					id=1;
 					side="EAST";
 					vehicle="AVB_Soldier_R";
+					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
+					skill=0;
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=50;
+		items=54;
 		class Item0
 		{
 			position[]={1781.0154,5.5,6034.2124};
@@ -103,7 +103,7 @@ class Mission
 			side="EMPTY";
 			vehicle="AVB_Optic_Box";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item1
 		{
@@ -113,7 +113,7 @@ class Mission
 			side="EMPTY";
 			vehicle="AVB_Pistol_Box";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item2
 		{
@@ -123,7 +123,7 @@ class Mission
 			side="EMPTY";
 			vehicle="AVB_Inems_Box";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item3
 		{
@@ -133,7 +133,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_BagBunker_Small_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item4
 		{
@@ -142,7 +142,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item5
 		{
@@ -151,7 +151,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Target_Oval_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item6
 		{
@@ -161,7 +161,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Dirthump_1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item7
 		{
@@ -171,7 +171,7 @@ class Mission
 			side="EMPTY";
 			vehicle="AVB_MG_high";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item8
 		{
@@ -180,7 +180,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Target_Oval_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item9
 		{
@@ -189,7 +189,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Target_Oval_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item10
 		{
@@ -198,7 +198,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Target_Oval_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item11
 		{
@@ -207,7 +207,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Target_Oval_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item12
 		{
@@ -216,7 +216,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item13
 		{
@@ -225,7 +225,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item14
 		{
@@ -234,7 +234,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item15
 		{
@@ -243,7 +243,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item16
 		{
@@ -252,7 +252,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item17
 		{
@@ -261,7 +261,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item18
 		{
@@ -270,7 +270,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item19
 		{
@@ -279,7 +279,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item20
 		{
@@ -288,7 +288,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item21
 		{
@@ -297,7 +297,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item22
 		{
@@ -306,7 +306,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item23
 		{
@@ -315,7 +315,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item24
 		{
@@ -324,7 +324,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item25
 		{
@@ -333,7 +333,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item26
 		{
@@ -342,7 +342,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item27
 		{
@@ -351,7 +351,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item28
 		{
@@ -360,7 +360,7 @@ class Mission
 			side="EMPTY";
 			vehicle="TargetP_Inf_Acc1_F";
 			leader=1;
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item29
 		{
@@ -368,7 +368,7 @@ class Mission
 			id=31;
 			side="EMPTY";
 			vehicle="AVB_Rifle_Box";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item30
 		{
@@ -377,7 +377,7 @@ class Mission
 			id=32;
 			side="EMPTY";
 			vehicle="AVB_MG_low";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item31
 		{
@@ -386,7 +386,7 @@ class Mission
 			id=33;
 			side="EMPTY";
 			vehicle="B_HMG_01_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item32
 		{
@@ -394,7 +394,7 @@ class Mission
 			id=34;
 			side="EMPTY";
 			vehicle="Land_CargoBox_V1_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item33
 		{
@@ -402,7 +402,7 @@ class Mission
 			id=35;
 			side="EMPTY";
 			vehicle="Land_MetalBarrel_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item34
 		{
@@ -410,7 +410,7 @@ class Mission
 			id=36;
 			side="EMPTY";
 			vehicle="MetalBarrel_burning_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item35
 		{
@@ -418,7 +418,7 @@ class Mission
 			id=37;
 			side="EMPTY";
 			vehicle="Land_BarrelSand_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item36
 		{
@@ -426,7 +426,7 @@ class Mission
 			id=38;
 			side="EMPTY";
 			vehicle="Land_BarrelTrash_grey_F";
-			skill=0.60000002;
+			skill=0;
 			text="Dreckfass";
 		};
 		class Item37
@@ -435,7 +435,7 @@ class Mission
 			id=39;
 			side="EMPTY";
 			vehicle="Land_WaterBarrel_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item38
 		{
@@ -443,7 +443,7 @@ class Mission
 			id=40;
 			side="EMPTY";
 			vehicle="Land_WaterTank_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item39
 		{
@@ -451,7 +451,7 @@ class Mission
 			id=41;
 			side="EMPTY";
 			vehicle="Box_NATO_Wps_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item40
 		{
@@ -459,7 +459,7 @@ class Mission
 			id=42;
 			side="EMPTY";
 			vehicle="Box_NATO_Wps_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item41
 		{
@@ -467,7 +467,7 @@ class Mission
 			id=43;
 			side="EMPTY";
 			vehicle="Box_NATO_WpsLaunch_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item42
 		{
@@ -475,7 +475,7 @@ class Mission
 			id=44;
 			side="EMPTY";
 			vehicle="Box_NATO_WpsSpecial_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item43
 		{
@@ -483,7 +483,7 @@ class Mission
 			id=45;
 			side="EMPTY";
 			vehicle="B_supplyCrate_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item44
 		{
@@ -491,7 +491,7 @@ class Mission
 			id=46;
 			side="EMPTY";
 			vehicle="O_CargoNet_01_ammo_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item45
 		{
@@ -499,7 +499,7 @@ class Mission
 			id=47;
 			side="EMPTY";
 			vehicle="Box_FIA_Support_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item46
 		{
@@ -507,7 +507,7 @@ class Mission
 			id=48;
 			side="EMPTY";
 			vehicle="Box_FIA_Ammo_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item47
 		{
@@ -515,7 +515,7 @@ class Mission
 			id=49;
 			side="EMPTY";
 			vehicle="Box_FIA_Wps_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item48
 		{
@@ -523,7 +523,7 @@ class Mission
 			id=50;
 			side="EMPTY";
 			vehicle="Box_FIA_Support_F";
-			skill=0.60000002;
+			skill=0;
 		};
 		class Item49
 		{
@@ -531,7 +531,43 @@ class Mission
 			id=51;
 			side="EMPTY";
 			vehicle="AVB_Cash_Box";
-			skill=0.60000002;
+			skill=0.2;
+			text="cach";
+		};
+		class Item50
+		{
+			position[]={1778.6249,5.5,6022.0288};
+			id=52;
+			side="EMPTY";
+			vehicle="AVB_SMG_Box";
+			skill=0;
+		};
+		class Item51
+		{
+			position[]={1778.761,5.5,6019.6455};
+			id=53;
+			side="EMPTY";
+			vehicle="AVB_LMG_Box";
+			skill=0.2;
+			text="box1";
+		};
+		class Item52
+		{
+			position[]={1781.6449,5.5,6018.8857};
+			id=54;
+			side="EMPTY";
+			vehicle="AVB_DMR_Box";
+			skill=0.2;
+			text="box";
+		};
+		class Item53
+		{
+			position[]={1783.2885,5.5,6022.7998};
+			id=55;
+			side="EMPTY";
+			vehicle="AVB_Quadbike";
+			skill=0.2;
+			text="k";
 		};
 	};
 };
@@ -548,21 +584,18 @@ class Intro
 	randomSeed=13199800;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		year=2035;
 		month=7;
 		day=6;
 		hour=12;
 		minute=0;
-		startFogDecay=0.013;
-		forecastFogDecay=0.013;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 };
 class OutroWin
@@ -578,21 +611,18 @@ class OutroWin
 	randomSeed=8375883;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		year=2035;
 		month=7;
 		day=6;
 		hour=12;
 		minute=0;
-		startFogDecay=0.013;
-		forecastFogDecay=0.013;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 };
 class OutroLoose
@@ -608,20 +638,17 @@ class OutroLoose
 	randomSeed=16041227;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
 		year=2035;
 		month=7;
 		day=6;
 		hour=12;
 		minute=0;
-		startFogDecay=0.013;
-		forecastFogDecay=0.013;
+		startFogDecay=0;
+		forecastFogDecay=0;
 	};
 };
