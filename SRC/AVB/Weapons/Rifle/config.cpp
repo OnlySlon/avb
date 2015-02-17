@@ -16,6 +16,9 @@ class ItemInfo;
 
 class CfgWeapons
 {
+#include "smg.h"
+#include "Zafir.h"
+#include "DMR.h"
 class arifle_Mk20_F;
 	class AVB_Mk20: arifle_Mk20_F{
 		displayName = "[AVB] MK20";
@@ -42,6 +45,7 @@ class arifle_Mk20_GL_F;
 			opticsZoomInit = 0.75;
 		};
 		};
+
 };
 
 

@@ -12,7 +12,10 @@ class CfgPatches
 
 class CfgVehicles 
 {
-	class ReammoBox_F;
+
+class ReammoBox_F;
+	
+	
 	class AVB_Box_test: ReammoBox_F
 	{
 		scope=2;
@@ -90,6 +93,11 @@ class CfgVehicles
 		};
 	};
 
+	#include "BoxRifle.h"
+	#include "BoxSMG.h"
+	#include "BoxLMG.h"
+	#include "BoxSight.h"
+	#include "BoxDMR.h"
 	class AVB_Pistol_Box: AVB_Box_Base_CB
 	{
 		scope = 2;
@@ -268,5 +276,5 @@ class CfgVehicles
 			
 		};
 	};
-#include "BoxRifle.h"
+
 };
