@@ -23,7 +23,7 @@ class cfgFactionClasses
 {
 	class AVB_R 
 	{
-		displayName = $STR_fr;
+		displayName = "[AVB] ûûûûû";
 		priority = 100;
 		side = 0;
 		icon = "\AVB\Factions\ui\Icon_R.paa";
@@ -31,7 +31,7 @@ class cfgFactionClasses
 	};
 	class AVB_B
 	{
-		displayName = $STR_fb;
+		displayName = "[AVB] ûûû";
 		priority = 100;
 		side = 1;
 		icon = "\AVB\Factions\ui\Icon_B.paa";
@@ -39,7 +39,7 @@ class cfgFactionClasses
 	};
 	class AVB_G 
 	{
-		displayName = $STR_fg;
+		displayName = "[AVB] ûûû";
 		priority = 100;
 		side = 2;
 		icon = "\AVB\Factions\ui\Icon_G.paa";
@@ -47,7 +47,7 @@ class cfgFactionClasses
 	};
 	class AVB_C 
 	{
-		displayName = $STR_fc;
+		displayName = "[AVB] ûûûûû";
 		priority = 100;
 		side = 3;
 		icon = "\AVB\Factions\ui\Icon_C.paa";

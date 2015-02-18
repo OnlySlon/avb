@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="AVB">
+<Package name="Flags">
+
+<Container name="main">
+
+	<Key ID="$STR_DN_flag_B">
+		<Original>Flag Blue</Original>
+		<English>Flag Blue</English>
+		<Russian>Флаг Синих</Russian>
+	</Key>
+	
+	<Key ID="$STR_DN_flag_R">
+		<Original>Flag Red</Original>
+		<English>Flag Red</English>
+		<Russian>Флаг Красных</Russian>
+	</Key>
+	
+	<Key ID="$STR_DN_flag_G">
+		<Original>Flag Guer</Original>
+		<English>Flag Guer</English>
+		<Russian>[AVB] Независимые</Russian>
+	</Key>
+	
+	<Key ID="$STR_DN_flag_C">
+		<Original>Flag Civ</Original>
+		<English>Flag Civ</English>
+		<Russian>Флаг Гражданских</Russian>
+	</Key>
+	
+	
+
+</Container>
+
+</Package>
+</Project>

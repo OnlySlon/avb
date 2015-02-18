@@ -1,4 +1,4 @@
-class AVB_DMR_Box: AVB_Box_Base_CB
+﻿class AVB_DMR_Box: AVB_Box_Base_CB
 	{
 		scope = 2;
 		mapSize = 1.81;
