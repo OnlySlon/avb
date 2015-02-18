@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="AVB">
+<Package name="Factions">
+
+<Container name="main">
+
+	<Key ID="STR_fb">
+		<Original>[AVB] Blue</Original>
+		<English>[AVB] Blue</English>
+		<Russian>[AVB] Синие</Russian>
+	</Key>
+	
+	<Key ID="STR_fr">
+		<Original>[AVB] Red</Original>
+		<English>[AVB] Red</English>
+		<Russian>[AVB] Красные</Russian>
+	</Key>
+	
+	<Key ID="STR_fg">
+		<Original>[AVB] Guer</Original>
+		<English>[AVB] Guer</English>
+		<Russian>[AVB] Независимые</Russian>
+	</Key>
+	
+	<Key ID="STR_fc">
+		<Original>[AVB] Civ</Original>
+		<English>[AVB] Civ<</English>
+		<Russian>[AVB] Гражданские</Russian>
+	</Key>
+	
+	
+
+</Container>
+
+</Package>
+</Project>

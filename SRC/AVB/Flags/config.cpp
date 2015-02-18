@@ -6,7 +6,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Data_F"};
      };
 };
 
@@ -14,47 +14,47 @@ class CfgPatches
 {
 	class FlagCarrier;
 
-	class AVB_FlagCarrierCR: FlagCarrier{
+	class AVB_FlagCarrierR: FlagCarrier{
 		scope = 2;
 		accuracy = 1000;
 		icon = "\AVB\Flags\UI\flag.paa";
-		displayName = 'Флаг компании "RED"';
+		displayName = $STR_DN_flag_R;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_CR.paa""";
+			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_R.paa""";
 		};
 	};
 
-	class AVB_FlagCarrierCB: FlagCarrier{
+	class AVB_FlagCarrierB: FlagCarrier{
 		scope = 2;
 		accuracy = 1000;
 		icon = "\AVB\Flags\UI\flag.paa";
-		displayName = 'Флаг компании "BLUE"';
+		displayName = $STR_DN_flag_B;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_CB.paa""";
+			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_B.paa""";
 		};
 	};
 
-	class AVB_FlagCarrierCC: FlagCarrier{
+	class AVB_FlagCarrierC: FlagCarrier{
 		scope = 2;
 		accuracy = 1000;
 		icon = "\AVB\Flags\UI\flag.paa";
-		displayName = 'Флаг организации "CIVIL"';
+		displayName = $STR_DN_flag_C;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_CC.paa""";
+			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_C.paa""";
 		};
 	};
 
-	class AVB_FlagCarrierCG:  FlagCarrier{
+	class AVB_FlagCarrierG: FlagCarrier{
 		scope = 2;
 		accuracy = 1000;
 		icon = "\AVB\Flags\UI\flag.paa";
-		displayName = 'Флаг организации "GREEN"';
+		displayName = $STR_DN_flag_G;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_CG.paa""";
+			init = "(_this select 0) setFlagTexture ""\AVB\Flags\flag_G.paa""";
 		};
 	};
 };
